@@ -1,0 +1,45 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header h1::before {
+  content: "> ";
+}
+
+#a-about {
+  text-decoration: none;
+
+  h1 {
+
+    &:before {
+      content: "";
+    }
+
+    &:after {
+      content: " <";
+    }
+  }
+}
+
+#a-title {
+
+}
+
+header .header-flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .flex-item {
+    flex-grow: 1;
+
+    &.about {
+      text-align: right;
+    }
+  }
+
+  h1, h2 {
+    display: inline-block;
+  }
+}

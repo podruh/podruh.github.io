@@ -42,6 +42,7 @@
     <orderEntry type="library" scope="PROVIDED" name="jekyll-feed (v0.15.1, rbenv: 2.6.6) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jekyll-gist (v1.5.0, rbenv: 2.6.6) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jekyll-github-metadata (v2.13.0, rbenv: 2.6.6) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jekyll-include-cache (v0.2.1, rbenv: 2.6.6) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jekyll-mentions (v1.6.0, rbenv: 2.6.6) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jekyll-optional-front-matter (v0.3.2, rbenv: 2.6.6) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jekyll-paginate (v1.1.0, rbenv: 2.6.6) [gem]" level="application" />

@@ -18,19 +18,23 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Podr Blog
+title: David Podroužek
 email: podruh01@gmail.com
+author: me
 description: >- # this means to ignore newlines until "baseurl:"
   Myšlenky, nápady a experimenty jednoho Ruby vývojáře v Praze
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.podr.cz" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.podr.cz"
 twitter_username: podruh01
 github_username:  podruh
 
 # Build settings
-theme: minima
+theme: jekyll-theme-hacker
+#remote_theme: "mmistakes/minimal-mistakes@4.21.0"
+#minimal_mistakes_skin: neon
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -51,3 +55,5 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude:
+  - .idea/
