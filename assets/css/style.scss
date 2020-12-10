@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 header h1::before {
-  content: "> ";
+  content: ">\00a0";
 }
 
 #a-about {
@@ -17,7 +17,8 @@ header h1::before {
     }
 
     &:after {
-      content: " <";
+      content: "\00a0<";
+      font-weight: normal;
     }
   }
 }
@@ -30,6 +31,7 @@ header .header-flex-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 
   .flex-item {
     flex-grow: 1;
