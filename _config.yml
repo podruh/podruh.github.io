@@ -5,8 +5,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   Myšlenky, nápady a experimenty jednoho Ruby vývojáře v Praze
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.podr.cz"
-twitter_username: podruh01
 github_username:  podruh
+twitter:
+  username: podruh01
+  card: summary
 
 theme: jekyll-theme-hacker
 plugins:
