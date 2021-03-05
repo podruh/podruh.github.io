@@ -10,6 +10,12 @@ header h1::before {
 #a-about {
   text-decoration: none;
 
+  &.active {
+    h1 {
+      text-decoration: underline;
+    }
+  }
+
   h1 {
 
     &:before {
@@ -44,4 +50,11 @@ header .header-flex-container {
   h1, h2 {
     display: inline-block;
   }
+}
+
+img + em { 
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
 }

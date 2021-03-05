@@ -20,10 +20,12 @@
                 </a>
 
             </div>
-            <div class="flex-item about">
-                <a id="a-about" href="{% link about.markdown %}">
-                    <h1>about</h1>
-                </a>
+            <div class="flex-item about">        
+                {% if page.url == "/about/" %}
+                <a id="a-about" class="active" href="{% link about.markdown %}"><h1>about</h1></a>
+                {% else %}
+                <a id="a-about" href="{% link about.markdown %}"><h1>about</h1></a>
+                {% endif %}
             </div>
         </div>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
